@@ -1,4 +1,4 @@
-//Check whether a number is divisible by 5 &11
+//Check whether a number is divisible by 5 & 11 & 7
 import java.util.Scanner;
 
 public class Divisible{
@@ -18,6 +18,12 @@ public class Divisible{
 			System.out.println("Number Is Divisible By 11: "+ num);
 		}else{
 			System.out.println("Number Is Not Divisible By 11: "+ num);
+		}
+		
+		if(num%7 == 0){
+			System.out.println("Number Is Divisible By 7: "+ num);
+		}else{
+			System.out.println("Number Is Not Divisible By 7: "+ num);
 		}
 	}
 }
