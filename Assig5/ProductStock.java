@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class ProductStock{
+public class ProductStock {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

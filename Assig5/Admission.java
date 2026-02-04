@@ -2,10 +2,9 @@
 
 import java.util.Scanner;
 
-public class Admission{
+public class Admission {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter age: ");
         int age = sc.nextInt();
 

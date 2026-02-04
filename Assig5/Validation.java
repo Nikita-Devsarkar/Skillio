@@ -1,10 +1,10 @@
+
 //Validate username and password.
 import java.util.Scanner;
 
-public class Validation{
+public class Validation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         String corUsername = "nikita";
         String corPassword = "12345";
 
